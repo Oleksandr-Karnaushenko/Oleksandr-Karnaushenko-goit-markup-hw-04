@@ -201,18 +201,6 @@ img {
 .info {
   padding: 120px 0;
 }
-.info-imgs {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  height: 112px;
-}
-.info-img svg {
-  width: 64px;
-  height: 64px;
-  margin: 24px 100px;
-}
 .info-ul {
   margin-top: 8px;
   display: flex;
@@ -229,6 +217,11 @@ img {
   border: 1px solid #8e8f99;
   background-color: #f4f4fd;
   margin-bottom: 8px;
+}
+.info-img svg {
+  width: 64px;
+  height: 64px;
+  margin: 24px 100px;
 }
 
 /*section 3*/
@@ -261,16 +254,16 @@ img {
 .our-team-text {
   text-align: center;
 }
-.our-team-svg {
+.our-team-icons {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.our-team-svg-li {
+.our-team-icons-li {
   width: 40px;
   height: 40px;
 }
-.our-team-svg-link {
+.our-team-icons-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -280,11 +273,11 @@ img {
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-team-svg-link:hover,
-.our-team-svg-link:focus {
+.our-team-icons-link:hover,
+.our-team-icons-link:focus {
   background-color: #404bbf;
 }
-.our-team-svg svg {
+.our-team-svg {
   width: 16px;
   height: 16px;
   fill: #f4f4fd;
@@ -375,15 +368,15 @@ img {
   color: #fff;
   margin-bottom: 16px;
 }
-.footer-svg {
+.footer-icons {
   display: flex;
   gap: 16px;
 }
-.footer-svg-li {
+.footer-icons-li {
   width: 40px;
   height: 40px;
 }
-.footer-svg-link {
+.footer-icons-link {
   display: flex;
   width: 100%;
   height: 100%;
@@ -397,7 +390,8 @@ img {
 .footer-svg-link:focus {
   background-color: #31d0aa;
 }
-.footer-svg svg {
+.footer-svg {
   width: 24px;
   height: 24px;
+  fill: #f4f4fd;
 }
